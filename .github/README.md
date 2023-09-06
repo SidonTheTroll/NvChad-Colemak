@@ -14,7 +14,7 @@ To use the config. Just make sure you have the original NvChad installed with th
 ## Showcase 
 
 ![Startup](./src/startup.png)
-![Workflow](./src/workflow.png)
+![Workflow](./src/tabs.png)
 
 ## Now what? 
 
