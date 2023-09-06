@@ -3,7 +3,7 @@
 <div align='center'> 
 
 [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.9.0-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim)
-[![Discord](https://img.shields.io/discord/869557815780470834?color=738adb&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/gBPVMWbjFf)
+[![Discord](https://img.shields.io/discord/936927116879085629?color=738adb&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/gBPVMWbjFf)
 
 </div>
 
@@ -31,12 +31,12 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 
 <details><summary> Click to expand </summary> 
 
-- Many beautiful themes, theme toggler by our [base46 plugin](https://github.com/NvChad/base46)
-- Inbuilt terminal toggling & management with [Nvterm](https://github.com/NvChad/nvterm)
+- Themes by [base46 plugin](https://github.com/NvChad/base46)
+- Inbuilt terminal [Nvterm](https://github.com/NvChad/nvterm)
 - NvChad updater, hide & unhide terminal buffers with [NvChad extensions](https://github.com/NvChad/extensions)
-- Lightweight & performant ui plugin with [NvChad UI](https://github.com/NvChad/ui) It provides statusline modules, tabufline ( tabs + buffer manager) , beautiful cheatsheets and much more!
+- Lightweight & performant ui plugin with [NvChad UI](https://github.com/NvChad/ui). Provides statusline modules, tabufline (tabs + buffer manager).cheatsheet, etc.
 - File navigation with [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
-- Beautiful and configurable icons with [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
+- Configurable icons with [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 - Git diffs and more with [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) 
 - NeoVim Lsp configuration with [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) and [mason.nvim](https://github.com/williamboman/mason.nvim)
 - Autocompletion with [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
