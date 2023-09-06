@@ -47,6 +47,8 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - Useful snippets with [friendly snippets](https://github.com/rafamadriz/friendly-snippets) + [LuaSnip](https://github.com/L3MON4D3/LuaSnip).
 - Popup mappings keysheet [whichkey.nvim](https://github.com/folke/which-key.nvim)
 
+</details> 
+
 ## Added plugins
 
 - Track coding time with [Wakatime](https://github.com/wakatime/vim-wakatime)
