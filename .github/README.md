@@ -29,7 +29,7 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 
 ## Default plugins
 
-<details><summary> **Click to expand** </summary> 
+<details><summary> <b> Click to expand </b> </summary> 
 
 - Themes by [base46 plugin](https://github.com/NvChad/base46)
 - Inbuilt terminal [Nvterm](https://github.com/NvChad/nvterm)
