@@ -1,4 +1,4 @@
-# <center> NvChad Colemak
+<h1 align='center'>NvChad Colemak</h1>
 
 <div align='center'> 
 
