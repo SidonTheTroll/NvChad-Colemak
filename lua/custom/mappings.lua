@@ -18,6 +18,18 @@ M.tagbar = {
   },
 }
 
+M.split = {
+  plugin = true,
+
+  n = {
+    ["<F6>"] = {"<cmd> split <CR>", "Split Horizontal tab"},
+    ["<F7>"] = {"<cmd> vsplit <CR>", "Split Vertical tab"},
+  },
+}
+
+vim.api.nvim_set_keymap('n', '<F6>', '<cmd>split<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<F7>', '<cmd>vsplit<CR>', { noremap = true, silent = true })
+
 vim.api.nvim_set_keymap('n', '<F8>', '<cmd>TagbarToggle<CR>', { noremap = true, silent = true })
 
 -- M.vimvisualmulti = {

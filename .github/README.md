@@ -14,7 +14,7 @@ To use the config. Just make sure you have the original NvChad installed with th
 ## Showcase 
 
 ![Startup](./src/startup.png)
-![Workflow](./src/workflow.png)
+![Workflow](./src/tabs.png)
 
 ## Now what? 
 
@@ -61,7 +61,14 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - lua/core/default-config.lua 
 - lua/core/mappings.lua 
 
-These are to made suitable to navigate using Colemak but only in insert mode. Feel free to also implement in normal mode. 
+## Added keybinds
+
+- Tagbar 
+- Split
+
+Check these two in the cheat sheet.
+
+Also these are to made suitable to navigate using Colemak but only in insert mode. Feel free to also implement in normal mode. 
 
 ## History
 
@@ -71,13 +78,12 @@ These are to made suitable to navigate using Colemak but only in insert mode. Fe
 
 ## Notes
 
-`:vsplit` for vertical split of the IDE  
-`:split` for horizontal split
+Figure out why custom mapping keybinds with leader key doesn't work. 
 
 ## TODO
 
-- [ ] Add keybind for `:vsplit`
-- [ ] Add keybind for `:split`
+- [x] Add keybind for `:vsplit`
+- [x] Add keybind for `:split`
 
 ## Yet another time Sidon complains about his PC 
 
