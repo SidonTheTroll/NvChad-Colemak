@@ -1,0 +1,67 @@
+{
+    "dateDMY":{
+        "prefix": "dateDMY",
+        "body": ["${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}"],
+        "description": "Put the date in (D/M/Y) format"
+    },
+    "above":{
+      "prefix": "\above",
+      "body": [""\above"],
+      "description": "Add above"
+    },
+    "acute":{
+      "prefix": "\acute",
+      "body": ["\acute"],
+      "description": "Add acute"
+    },
+    "alef":{
+      "prefix": "\alef",
+      "body": ["alef"],
+      "description": "Add alef"
+    },
+    "alefsym":{
+      "prefix": "\alefsym",
+      "body": ["\alefsym"],
+      "description": "Add alefsym"
+    },
+    "aleph":{
+      "prefix": "\aleph",
+      "body": ["\aleph"],
+      "description": "Add aleph"
+    },
+    "alpha":{
+      "prefix": "\alpha",
+      "body": ["\alpha"],
+      "description": "Add alpha"
+    },
+    "amalg":{
+      "prefix": "\amalg",
+      "body": ["\amalg"],
+      "description": "Add amalg"
+    },
+    "angle":{
+      "prefix": "\angle",
+      "body": ["\angle"],
+      "description": "Prints angle"
+    },
+    "approx":{
+      "prefix": "\approx",
+      "body": ["\approx"],
+      "description": "Prints approximate"
+    },
+    "approxcolon":{
+      "prefix": "\approxcolon",
+      "body": ["\approxcolon"],
+      "description": "Prints approxcolon"
+    },
+    "approxeq":{
+      "prefix": "\approxeq",
+      "body": ["\approxeq"],
+      "description": "Prints approxeq"
+    },
+    "approxeq":{
+      "prefix": "\approxeq",
+      "body": ["\approxeq"], 
+      "description": "Prints approxeq"
+    }
+}
