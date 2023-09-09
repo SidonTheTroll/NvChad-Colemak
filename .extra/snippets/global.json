@@ -1,0 +1,118 @@
+{
+    "dateDMY":{
+        "prefix": "dateDMY",
+        "body": ["${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}"],
+        "description": "Put the date in (D/M/Y) format"
+    },
+    "above":{
+      "prefix": "\above",
+      "body": [""\above"],
+      "description": "Add above"
+    },
+    "acute":{
+      "prefix": "\acute",
+      "body": ["\acute"],
+      "description": "Add acute"
+    },
+    "alef":{
+      "prefix": "\alef",
+      "body": ["alef"],
+      "description": "Add alef"
+    },
+    "alefsym":{
+      "prefix": "\alefsym",
+      "body": ["\alefsym"],
+      "description": "Add alefsym"
+    },
+    "aleph":{
+      "prefix": "\aleph",
+      "body": ["\aleph"],
+      "description": "Add aleph"
+    },
+    "alpha":{
+      "prefix": "\alpha",
+      "body": ["\alpha"],
+      "description": "Add alpha"
+    },
+    "amalg":{
+      "prefix": "\amalg",
+      "body": ["\amalg"],
+      "description": "Add amalg"
+    },
+    "angle":{
+      "prefix": "\angle",
+      "body": ["\angle"],
+      "description": "Prints angle"
+    },
+    "approx":{
+      "prefix": "\approx",
+      "body": ["\approx"],
+      "description": "Prints approximate"
+    },
+    "approxcolon":{
+      "prefix": "\approxcolon",
+      "body": ["\approxcolon"],
+      "description": "Prints approxcolon"
+    },
+    "approxeq":{
+      "prefix": "\approxeq",
+      "body": ["\approxeq"],
+      "description": "Prints approxeq"
+    },
+    "approxeq":{
+      "prefix": "\approxeq",
+      "body": ["\approxeq"], 
+      "description": "Prints approxeq"
+    },
+    "backepsilon":{
+      "prefix": "\backepsilon",
+      "body": ["\backepsilon"],
+      "description": "Print backepsilon"
+    },
+    "backprime": {
+      "prefix": "\backprime",
+      "body": ["\backprime"],
+      "description": "Prints backprime"
+    },
+    "backsim": {
+      "prefix": "\backsim",
+      "body": ["\backsim"],
+      "description": "Prints backsim"
+    },
+    "backsimeq": {
+      "prefix": "\backsimeq",
+      "body": ["\backsimeq"],
+      "description": "Prints backsimeq"
+    },
+    "backslash": {
+      "prefix": "\backslash",
+      "body": ["\backslash"],
+      "description": "Prints backslash"
+    },
+    "bar{}": {
+      "prefix": "\bar{}",
+      "body": ["\bar{}"],
+      "description": "Prints bar{}"
+    },
+    "barwedge": {
+      "prefix": "\barwedge",
+      "body": ["\barwedge"],
+      "description": "Prints barwedge"
+    },
+    "bcancel{}": {
+      "prefix": "\bcancel{}",
+      "body": ["\bcancel{}"],
+      "description": "Prints bcancel{}"
+    },
+    "because": {
+      "prefix": "\because",
+      "body": ["\because"],
+      "description": "Prints because"
+    },
+    "beta":{
+      "prefix": "\beta",
+      "body": ["\beta"],
+      "description": "Print beta"
+    },
+    beth between bigcap bigcirc bigcup bigodot bigoplus bigotimes bigsqcup bigstar bigtriangledown bigtriangleup bigtriangledown bigvee bigwedge binom{}{} blacklozenge blacksquare blacktriangle blacktriangledown blacktriangleleft blacktriangleright bm{} bold boldsymbol bot bowtie boxdot boxed{} boxminus boxplus boxtimes bra{} brace{} brack{} braket 
+}
