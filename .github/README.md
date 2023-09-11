@@ -54,7 +54,8 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - Track coding time with [Wakatime](https://github.com/wakatime/vim-wakatime)
 - Descriptive startup menu with [Vim Startify](https://github.com/mhinz/vim-startify)
 - Keep an eye on components using [Tagbar](https://github.com/preservim/tagbar)
-- Flex your Linux nerdness by [Discord Presence](github.com/andweeb/presence.nvim)
+- Flex your Linux nerdness by [Discord Presence](https://github.com/andweeb/presence.nvim)
+- TODO highlighting with [Todo-Comments](https://github.com/folke/todo-comments.nvim)
 
 ## Modified default files 
 

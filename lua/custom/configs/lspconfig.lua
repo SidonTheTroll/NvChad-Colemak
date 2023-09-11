@@ -15,14 +15,14 @@ for _, lsp in ipairs(servers) do
   }
 end
 
-lspconfig.ltex.setup({
-  on_attach = on_attach,
-  capabilities = capabilities,
-  require'lspconfig'.ltex.setup{},
-  cmd = { "ltex-ls" },
-  filetypes = { "bib", "gitcommit", "markdown", "org", "plaintex", "rst", "rnoweb", "tex", "pandoc" },
-  root_dir = lspconfig.util.root_pattern("ltex.toml")
-})
+-- lspconfig.ltex.setup({
+--   on_attach = on_attach,
+--   capabilities = capabilities,
+--   require'lspconfig'.ltex.setup{},
+--   cmd = { "ltex-ls" },
+--   filetypes = { "bib", "gitcommit", "markdown", "org", "plaintex", "rst", "rnoweb", "tex", "pandoc" },
+--   root_dir = lspconfig.util.root_pattern("ltex.toml")
+-- })
 
 lspconfig.marksman.setup({
   on_attach = on_attach,
