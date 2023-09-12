@@ -16,17 +16,22 @@ local plugins = {
   {
     'folke/todo-comments.nvim',
     dependencies = {'nvim-lua/plenary.nvim'},
-    opts ={
-      signs = true,
-      keywords = {
-      TODO = {icon = '', color = '#ffea00', alt = {'todo', 'Todo'} },
-      ADD = {icon = '', color = '#00fbff'},
-      FIX = {icon = '', color = '#1eff00'},
-      }
-    }
+    -- opts ={
+      -- signs = true,
+      -- keywords = {
+      -- TODO = {icon = '', color = '#ffea00', alt = {'todo', 'Todo'} },
+      -- ADD = {icon = '', color = '#00fbff'},
+      -- FIX = {icon = '', color = '#1eff00'},
+      -- }
+    -- }
+    opts = {}
   },
 
-
+  {
+  "folke/trouble.nvim",
+  dependencies = { "nvim-tree/nvim-web-devicons" },
+  opts = {},
+  },
 
 
   {
