@@ -31,13 +31,20 @@ M.split = {
 
 require("core.utils").load_mappings("split")
 
+M.Editing = {
+  plugin = false,
 
+  i = {
+    ["C-y"] = {'<C-W>' , " Clear word"},
+  }
+}
 
 vim.api.nvim_set_keymap('n', '<F6>', '<cmd>split<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<F7>', '<cmd>vsplit<CR>', { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap('n', '<F8>', '<cmd>TagbarToggle<CR>', { noremap = true, silent = true })
 
+vim.api.nvim_set_keymap('i', '<C-y>', '<C-W>', { noremap = true })
 
 -- M.todo-comments = {
 --   plugin = true,

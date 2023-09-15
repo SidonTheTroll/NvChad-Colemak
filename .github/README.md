@@ -66,6 +66,7 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 
 - Tagbar 
 - Split
+- Ctrl+y as clear word backward as in other GUI editors 
 
 Check these two in the cheat sheet.
 
