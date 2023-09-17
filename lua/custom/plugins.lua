@@ -53,6 +53,10 @@ local plugins = {
 
 }
 
-vim.g.startify_custom_header = vim.fn.readfile('/home/sidon/.config/nvim/ascii.txt')
+--Startify file path 
+
+local home_directory = vim.fn.expand('$HOME')
+local config_file_path = home_directory .. '/.config/nvim/ascii.txt'
+vim.g.startify_custom_header = vim.fn.readfile(config_file_path)
 
 return plugins
