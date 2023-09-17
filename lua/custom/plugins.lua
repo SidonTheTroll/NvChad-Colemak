@@ -11,22 +11,12 @@ local plugins = {
   { "mhinz/vim-startify", lazy = false },
   { "preservim/tagbar", lazy = false },
   { "andweeb/presence.nvim", lazy = false },
-
-
   {
-    'folke/todo-comments.nvim',
-    dependencies = {'nvim-lua/plenary.nvim'},
-    -- opts ={
-      -- signs = true,
-      -- keywords = {
-      -- TODO = {icon = '', color = '#ffea00', alt = {'todo', 'Todo'} },
-      -- ADD = {icon = '', color = '#00fbff'},
-      -- FIX = {icon = '', color = '#1eff00'},
-      -- }
-    -- }
-    opts = {}
+    "folke/todo-comments.nvim",
+    config = function()
+      require("todo-comments").setup {}
+    end
   },
-
   {
   "folke/trouble.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
