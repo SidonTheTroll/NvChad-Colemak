@@ -22,7 +22,7 @@ local plugins = {
   dependencies = { "nvim-tree/nvim-web-devicons" },
   opts = {},
   },
-
+  { "pocco81/auto-save.nvim", lazy = false },
 
   {
   "neovim/nvim-lspconfig",

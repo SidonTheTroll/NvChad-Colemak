@@ -56,6 +56,7 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - Keep an eye on components using [Tagbar](https://github.com/preservim/tagbar)
 - Flex your Linux nerdness by [Discord Presence](https://github.com/andweeb/presence.nvim)
 - TODO highlighting with [Todo-Comments](https://github.com/folke/todo-comments.nvim)
+- AutoSaving file by [Auto-save.nvim](https://github.com/pocco81/auto-save.nvim)
 
 ## Modified default files 
 
@@ -67,6 +68,7 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - Tagbar 
 - Split
 - Ctrl+y as clear word backward as in other GUI editors 
+- F5 to toggle autosave on/off (on by default)
 
 Check these two in the cheat sheet.
 

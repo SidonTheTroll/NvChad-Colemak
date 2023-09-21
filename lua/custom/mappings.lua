@@ -19,6 +19,19 @@ M.tagbar = {
 }
 require("core.utils").load_mappings("tagbar")
 
+vim.api.nvim_set_keymap('n', '<F8>', '<cmd>TagbarToggle<CR>', { noremap = true, silent = true })
+
+
+M.autosave = {
+  plugin = true, 
+
+  n = {
+    ["<F5>"] = {"<cmd> ASToggle <CR>", "Toggle Autosave"}
+  }
+}
+
+vim.api.nvim_set_keymap("n", "<F5>", ":ASToggle<CR>", {})
+
 
 M.split = {
   plugin = true,
@@ -31,6 +44,10 @@ M.split = {
 
 require("core.utils").load_mappings("split")
 
+vim.api.nvim_set_keymap('n', '<F6>', '<cmd>split<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<F7>', '<cmd>vsplit<CR>', { noremap = true, silent = true })
+
+
 M.Editing = {
   plugin = false,
 
@@ -39,12 +56,9 @@ M.Editing = {
   }
 }
 
-vim.api.nvim_set_keymap('n', '<F6>', '<cmd>split<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<F7>', '<cmd>vsplit<CR>', { noremap = true, silent = true })
-
-vim.api.nvim_set_keymap('n', '<F8>', '<cmd>TagbarToggle<CR>', { noremap = true, silent = true })
-
 vim.api.nvim_set_keymap('i', '<C-y>', '<C-W>', { noremap = true })
+
+
 
 -- M.todo-comments = {
 --   plugin = true,
