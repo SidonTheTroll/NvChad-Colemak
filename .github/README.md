@@ -70,7 +70,7 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - Ctrl+y as clear word backward as in other GUI editors 
 - F5 to toggle autosave on/off (on by default)
 
-Check these two in the cheat sheet.
+Check these stuff in the cheat sheet (<leader>ch btw).
 
 Also these are to made suitable to navigate using Colemak but only in insert mode. Feel free to also implement in normal mode. 
 
