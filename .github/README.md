@@ -34,7 +34,7 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - Themes by [base46 plugin](https://github.com/NvChad/base46)
 - Inbuilt terminal [Nvterm](https://github.com/NvChad/nvterm)
 - NvChad updater, hide & unhide terminal buffers with [NvChad extensions](https://github.com/NvChad/extensions)
-- Lightweight & performant ui plugin with [NvChad UI](https://github.com/NvChad/ui). Provides statusline modules, tabufline (tabs + buffer manager).cheatsheet, etc.
+- Lightweight & performant ui plugin with [NvChad UI](https://github.com/NvChad/ui). Provides statusline modules, tabufline (tabs + buffer manager), cheatsheet, etc.
 - File navigation with [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - Configurable icons with [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 - Git diffs and more with [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) 
