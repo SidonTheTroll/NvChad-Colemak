@@ -11,6 +11,10 @@ Configs for NvChad for people who use **Colemak keyboard layout**. With added fe
 
 To use the config. Just make sure you have the original NvChad installed with the minimal settings on (don't install extra stuff during the initialization) and then merge and replace the original files with the files in the repo (ik that its mostly the custom folder but I made changes in the root files too so just do it). 
 
+## Installation 
+
+`git clone https://github.com/SidonTheTroll/NvChad-Colemak ~/.config/nvim/ --depth 1`
+
 ## Showcase 
 
 ![Startup](./src/startup.png)
