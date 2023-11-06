@@ -43,6 +43,7 @@ local plugins = {
 
 }
 
+
 --Startify file path 
 
 local home_directory = vim.fn.expand('$HOME')
