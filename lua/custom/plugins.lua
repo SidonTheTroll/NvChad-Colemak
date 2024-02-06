@@ -36,7 +36,7 @@ local plugins = {
   "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        "ltex-ls", "marksman", "prettier",
+        
       },
     },
   }
