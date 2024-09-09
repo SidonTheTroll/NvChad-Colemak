@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> I don't use NeoVim due to personal reason and due to updates, these configs don't work as intended. Do not use this repository if you don't want to torture yourself fixing everything up. 
+
+
 <h1 align='center'>NvChad Colemak</h1>
 
 <div align='center'> 
