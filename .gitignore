@@ -1,0 +1,9 @@
+*
+
+!.gitignore
+!./.github/*
+!./init.lua
+!./ascii.txt
+!./ascii/*
+!./lua/mappings.lua
+!./lua/plugins/custom.lua
