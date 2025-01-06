@@ -16,4 +16,6 @@ map("i", "jk", "<ESC>")
 --   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/  \/_/ 
 
 map("n", "<F8>","<cmd> TagbarToggle<cr>", {desc = "Toggle Tagbar on or off"})
-map('n','<F5>', '<cmd> ASToggle<cr>', {desc = 'Toggle Autosave'})
+map("n", "<F5>", '<cmd> ASToggle<cr>', {desc = 'Toggle Autosave'})
+map("n", "<F6>", "<cmd> split<cr>", {desc = "Split editor horizontally"})
+map("n", "<F7>", "<cmd> vsplit<cr>", {desc = "Split editor vertically"})

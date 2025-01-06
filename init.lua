@@ -36,5 +36,18 @@ vim.schedule(function()
   require "mappings"
 end)
 
+--  ______     __  __     ______     ______   ______     __    __    
+-- /\  ___\   /\ \/\ \   /\  ___\   /\__  _\ /\  __ \   /\ "-./  \   
+-- \ \ \____  \ \ \_\ \  \ \___  \  \/_/\ \/ \ \ \/\ \  \ \ \-./\ \  
+--  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\ \ \_\ 
+--   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/  \/_/ 
+
 -- Copy yanked text to System Clipboard
-vim.opt.clipboard = unnamedplus
+vim.opt.clipboard = "unnamedplus"
+
+-- VimStartify Activation and ASCII file path
+local config_file_path = vim.fn.expand('$HOME/.config/nvim/ascii.txt')
+
+vim.g.startify_custom_header = vim.fn.filereadable(config_file_path) == 1
+  and vim.fn.readfile(config_file_path)
+  or { "Welcome to Neovim!" }
