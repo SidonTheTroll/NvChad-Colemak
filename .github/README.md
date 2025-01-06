@@ -1,6 +1,5 @@
 > [!IMPORTANT]
-> I don't use NeoVim due to personal reason and due to updates, these configs don't work as intended. Do not use this repository if you don't want to torture yourself fixing everything up. 
-
+> This repo is undergoing updates. So things might take some times to become stable.
 
 <h1 align='center'>NvChad Colemak</h1>
 
@@ -13,11 +12,16 @@
 
 Configs for NvChad for people who use **Colemak keyboard layout**. With added features and keybinds while keeping most of the original styling of NvChad.
 
-To use the config. Just make sure you have the original NvChad installed with the minimal settings on (don't install extra stuff during the initialization) and then merge and replace the original files with the files in the repo (ik that its mostly the custom folder but I made changes in the root files too so just do it). 
+To use the config. Just make sure you have the original NvChad installed and then merge and replace the original files with the provided files. 
 
 ## Installation 
 
 `git clone https://github.com/SidonTheTroll/NvChad-Colemak ~/.config/nvim/ --depth 1`
+
+## Dependencies 
+1. Luarocks 
+2. Ctags 
+3. xclip
 
 ## Showcase 
 
@@ -35,27 +39,7 @@ To use the config. Just make sure you have the original NvChad installed with th
 Works started on 4th September, 2023 and writing this on 6th September, 2023, basically the same year.  
 Became dizzy after smashing my head on the table for hours figuring out how Lua works.  
 
-## Default plugins
-
-<details><summary> <b> Click to expand </b> </summary> 
-
-- Themes by [base46 plugin](https://github.com/NvChad/base46)
-- Inbuilt terminal [Nvterm](https://github.com/NvChad/nvterm)
-- NvChad updater, hide & unhide terminal buffers with [NvChad extensions](https://github.com/NvChad/extensions)
-- Lightweight & performant ui plugin with [NvChad UI](https://github.com/NvChad/ui). Provides statusline modules, tabufline (tabs + buffer manager), cheatsheet, etc.
-- File navigation with [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
-- Configurable icons with [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
-- Git diffs and more with [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) 
-- NeoVim Lsp configuration with [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) and [mason.nvim](https://github.com/williamboman/mason.nvim)
-- Autocompletion with [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-- File searching, previewing image and text files and more with [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim).
-- Syntax highlighting with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- Autoclosing braces and html tags with [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- Indentlines with [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-- Useful snippets with [friendly snippets](https://github.com/rafamadriz/friendly-snippets) + [LuaSnip](https://github.com/L3MON4D3/LuaSnip).
-- Popup mappings keysheet [whichkey.nvim](https://github.com/folke/which-key.nvim)
-
-</details> 
+It's January 4 at 11:30 PM. I'm actually fixing my code so that I could work on my Craptop regardless of the situation. Also my exams are going on but I don't care.
 
 ## Added plugins
 
@@ -66,16 +50,9 @@ Became dizzy after smashing my head on the table for hours figuring out how Lua 
 - TODO highlighting with [Todo-Comments](https://github.com/folke/todo-comments.nvim)
 - AutoSaving file by [Auto-save.nvim](https://github.com/pocco81/auto-save.nvim)
 
-## Modified default files 
-
-- lua/core/default-config.lua 
-- lua/core/mappings.lua 
-
 ## Added keybinds
 
 - Tagbar 
-- Split
-- Ctrl+y as clear word backward as in other GUI editors 
 - F5 to toggle autosave on/off (on by default)
 
 Check these stuff in the cheat sheet (<leader>ch btw).
