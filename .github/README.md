@@ -18,6 +18,7 @@ A config which just works in completing essential tasks added with extra 'bloat'
 1. Luarocks 
 2. Ctags 
 3. xclip
+4. ripgrep
 
 ## Showcase 
 ![Startup](./src/startup.png)
