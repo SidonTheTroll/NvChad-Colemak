@@ -47,7 +47,7 @@ It's January 4, 2025 at 11:30 PM. I'm actually fixing my code so that I could wo
 ## Added keybinds
 - **F5** to toggle autosave on/off.
 - **F6** to split horizontally.
-- **F67** to split vertically.
+- **F7** to split vertically.
 - **F8** to toggle Tagbar on/off. 
 
 Check these stuff in the cheat sheet (*leader*+ch btw).
