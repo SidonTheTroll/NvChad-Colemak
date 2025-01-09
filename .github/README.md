@@ -16,6 +16,8 @@ A config which just works in completing essential tasks added with extra 'bloat'
 2. Open the config folder of a fresh install of NvChad. 
 3. Merge the folders and replace the conflicting files in the config folder. 
 
+This is meant to be a starting config. Your precofigured settings might be lost.
+
 ## Dependencies 
 1. Luarocks 
 2. Ctags 
