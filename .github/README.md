@@ -24,7 +24,7 @@ A config which just works in completing essential tasks added with extra 'bloat'
 5. Fish
 
 > [!NOTE]
-> Added **fish** to be used in the Terminal Toggle keybind. The config is found in `/lua/mappings.lua`.
+> Added **fish** to be used in the Terminal Toggle keybind. The config is found in `/lua/options.lua`.
 
 ## Showcase 
 ![Startup](./src/startup.png)
