@@ -21,6 +21,10 @@ A config which just works in completing essential tasks added with extra 'bloat'
 2. Ctags 
 3. xclip
 4. ripgrep
+5. Fish
+
+> [!NOTE]
+> Added **fish** to be used in the Terminal Toggle keybind. The config is found in `/lua/mappings.lua`.
 
 ## Showcase 
 ![Startup](./src/startup.png)
@@ -32,14 +36,12 @@ A config which just works in completing essential tasks added with extra 'bloat'
 - If you think that it needs some new features do the same or if you are feeling shy, just use it yourself, you don't have to do it if you don't want. 
 
 ## Few words from me (you don't have to read)
-
 Works started on 4th September, 2023 and writing this on 6th September, 2023, basically the same year.  
 Became dizzy after smashing my head on the table for hours figuring out how Lua works.  
 
 It's January 4, 2025 at 11:30 PM. I'm actually fixing my code so that I could work on my Craptop regardless of the situation. Also my exams are going on but I don't care.
 
 ## Added plugins
-
 - Track coding time with [Wakatime](https://github.com/wakatime/vim-wakatime)
 - Descriptive startup menu with [Vim Startify](https://github.com/mhinz/vim-startify)
 - Keep an eye on components using [Tagbar](https://github.com/preservim/tagbar)

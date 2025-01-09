@@ -15,6 +15,8 @@ map("i", "jk", "<ESC>")
 --  \ \_____\  \ \_____\  \/\_____\    \ \_\  \ \_____\  \ \_\ \ \_\ 
 --   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/  \/_/ 
 
+-- Navigation
+
 map("i", "<C-b>", "<ESC>^i", { desc = "move beginning of line" })
 map("i", "<C-f>", "<End>", { desc = "move end of line" })
 map("i", "<C-h>", "<Left>", { desc = "move left" })
@@ -26,6 +28,8 @@ map("n", "<C-h>", "<C-w>h", { desc = "switch window left" })
 map("n", "<C-l>", "<C-w>i", { desc = "switch window right" })
 map("n", "<C-j>", "<C-w>n", { desc = "switch window down" })
 map("n", "<C-k>", "<C-w>e", { desc = "switch window up" })
+
+-- Toggles 
 
 map("n", "<F8>","<cmd> TagbarToggle<cr>", {desc = "Toggle Tagbar on or off"})
 map("n", "<F5>", '<cmd> ASToggle<cr>', {desc = 'Toggle Autosave'})

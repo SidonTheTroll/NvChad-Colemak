@@ -16,3 +16,6 @@ vim.o.relativenumber = true
 -- Activate Cursor Line and Column
 vim.o.cursorlineopt ='both'
 vim.o.cursorcolumn = true
+
+-- Use Fish in place of default shell 
+vim.opt.shell="/usr/bin/fish"
