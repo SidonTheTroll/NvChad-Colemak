@@ -1,0 +1,5 @@
+.stylua.toml
+lazy-lock.json
+lua/chadrc.lua
+lua/plugins/init.lua
+lua/configs/*
