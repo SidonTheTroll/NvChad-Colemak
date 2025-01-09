@@ -1,5 +1,11 @@
-.stylua.toml
-lazy-lock.json
-lua/chadrc.lua
-lua/plugins/init.lua
-lua/configs/*
+* 
+
+!.git/
+!.github/
+!./ascii/
+!./ascii.txt
+!./LICENSE
+!./init.lua
+!./lua/plugins/custom.lua
+!./lua/mappings.lua
+!./lua/options.lua
