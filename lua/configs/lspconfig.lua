@@ -22,3 +22,31 @@ end
 --   on_init = nvlsp.on_init,
 --   capabilities = nvlsp.capabilities,
 -- }
+-- ===========================================================
+
+--Config for "python-lsp-server"
+local lspconfig = require "lspconfig"
+
+-- Configure Python LSP (pylsp)
+lspconfig.pylsp.setup {
+  on_attach = function(client, bufnr)
+    -- Enable nvim-cmp completion on LSP attach
+    require'cmp'.setup.buffer {
+      sources = {
+        { name = 'nvim_lsp' },  -- nvim_lsp source to get completions from LSP
+      }
+    }
+  end,
+  settings = {
+    pylsp = {
+      plugins = {
+        jedi_completion = { enabled = true },  -- Enable Jedi completions
+        jedi_hover = { enabled = true },
+        jedi_signature_help = { enabled = true },
+        pyflakes = { enabled = true },
+        pyright = { enabled = true },  -- Ensure pyright is enabled for better completion
+      },
+    },
+  },
+}
+
