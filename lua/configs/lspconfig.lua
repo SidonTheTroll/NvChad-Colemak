@@ -45,6 +45,10 @@ lspconfig.pylsp.setup {
         jedi_signature_help = { enabled = true },
         pyflakes = { enabled = true },
         pyright = { enabled = true },  -- Ensure pyright is enabled for better completion
+        pycodestyle = {
+          enabled = true,
+          ignore = { "E501" }, -- ignore long code lines
+        },
       },
     },
   },
