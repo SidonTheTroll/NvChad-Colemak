@@ -18,6 +18,19 @@ A config which just works in completing essential tasks added with extra 'bloat'
 
 This is meant to be a starting config. Your precofigured settings might be lost.
 
+### Packages 
+Important packages for configured LSPs to run are provided in `/requirements/` of the project. Install them through pip locally or globally. 
+
+- **Installation:**
+    - `pip install -r <requirements-file.txt>`
+
+<details>
+    <summary>Installing in virtual environment</summary>
+    - **Create a virtual environment:** `python3 -m venv <environment name>`
+    - **Activate the virtual environment**: `source /<environment name>/bin/activate`
+    - **Install the packages**: `pip install -r <requirements-file.txt>`
+</details>
+
 ## Dependencies 
 1. Luarocks 
 2. Ctags 
