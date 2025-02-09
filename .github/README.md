@@ -60,7 +60,7 @@ It's January 4, 2025 at 11:30 PM. I'm actually fixing my code so that I could wo
 - Track coding time with [Wakatime](https://github.com/wakatime/vim-wakatime)
 - Descriptive startup menu with [Vim Startify](https://github.com/mhinz/vim-startify)
 - Keep an eye on components using [Tagbar](https://github.com/preservim/tagbar)
-- Flex your Linux nerdness by [Presence.nvim](https://github.com/andweeb/presence.nvim) (Should be activated in `lua/plugins/custom.lua`)
+- Flex your Linux nerdness by [Presence.nvim](https://github.com/andweeb/presence.nvi)
 - AutoSaving file by [Auto-save.nvim](https://github.com/pocco81/auto-save.nvim)
 - Additional Math function for Markdown with [Friendly Snippets Math](https://github.com/sidonthetroll/friendly-snippets-math)
 
