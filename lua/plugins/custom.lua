@@ -3,8 +3,8 @@
 return {
   { 'wakatime/vim-wakatime', lazy = false },
   { "preservim/tagbar", lazy = false },
-  { "Pocco81/auto-save.nvim", lazy=false },
-  { "mhinz/vim-startify", lazy=false},
+  { "Pocco81/auto-save.nvim", lazy = false },
+  { "mhinz/vim-startify", lazy = false},
   { "sidonthetroll/friendly-snippets-math", lazy = false },
-  { "andweeb/presence.nvim", lazy=false }
+  { "andweeb/presence.nvim", lazy = false }
 }
