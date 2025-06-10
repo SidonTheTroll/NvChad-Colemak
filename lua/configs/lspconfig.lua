@@ -54,3 +54,10 @@ lspconfig.pylsp.setup {
   },
 }
 
+-- Configure C LSP (clangd)
+lspconfig.clangd.setup {
+    cmd = {"clangd","--background-index","--clang-tidy"},
+    on_attach = nvlsp.on_attach,
+    on_init = nvlsp.on_init,
+    capabilities = nvlsp.capabilities,
+}
