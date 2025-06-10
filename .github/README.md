@@ -23,6 +23,7 @@ Important packages for configured LSPs to run are provided in `/requirements/` o
 
 - **Installation:**
     - `pip install -r <requirements-file.txt>`
+    - `yay -S clang`
 
 <details>
     <summary>Installing in virtual environment</summary>
