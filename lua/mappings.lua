@@ -36,3 +36,9 @@ map("n", "<F5>", '<cmd> ASToggle<cr>', {desc = 'Toggle Autosave'})
 
 map("n", "<F6>", "<cmd> split<cr>", {desc = "Split editor horizontally"})
 map("n", "<F7>", "<cmd> vsplit<cr>", {desc = "Split editor vertically"})
+
+-- nvim-Spectre
+map('n', '<leader>S', '<cmd>lua require("spectre").toggle()<CR>', {desc = "Spectre Toggle"})
+map('n', '<leader>sw', '<cmd>lua require("spectre").open_visual({select_word=true})<CR>', {desc = "Spectre search current word"})
+map('v', '<leader>sw', '<esc><cmd>lua require("spectre").open_visual()<CR>', {desc = "Spectre search current word"})
+map('n', '<F9>', '<cmd>lua require("spectre").open_file_search({select_word=true})<CR>', {desc = "Spectre search on current file"})

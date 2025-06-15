@@ -38,6 +38,9 @@ Important packages for configured LSPs to run are provided in `/requirements/` o
 3. xclip
 4. ripgrep
 5. Fish
+6. ripgrep
+7. devicons
+8. sed
 
 > [!NOTE]
 > Added **fish** to be used in the Terminal Toggle keybind. The config is found in `/lua/options.lua`.
@@ -64,14 +67,16 @@ It's January 4, 2025 at 11:30 PM. I'm actually fixing my code so that I could wo
 - Flex your Linux nerdness by [Presence.nvim](https://github.com/andweeb/presence.nvi)
 - AutoSaving file by [Auto-save.nvim](https://github.com/pocco81/auto-save.nvim)
 - Additional Math function for Markdown with [Friendly Snippets Math](https://github.com/sidonthetroll/friendly-snippets-math)
+- Searching and Replacing functions with [nvim-spectre](https://github.com/nvim-pack/nvim-spectre)
 
 ## Added keybinds
 - **F5** to toggle autosave on/off.
 - **F6** to split horizontally.
 - **F7** to split vertically.
 - **F8** to toggle Tagbar on/off. 
+- **F9** to toggle Spectre 
 
-Check these stuff in the cheat sheet (*leader*+ch btw).
+Check these stuff in the cheat sheet (*leader*+ch btw). Remember you can always just see the mappings config. 
 
 Also these are to made suitable to navigate using Colemak but only in insert mode. Feel free to also implement in normal mode. 
 
