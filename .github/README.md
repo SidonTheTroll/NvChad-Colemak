@@ -35,7 +35,7 @@ Important packages for configured LSPs to run are provided in `/requirements/` o
 ## Dependencies 
 1. Luarocks 
 2. Ctags 
-3. xclip
+3. xclip/wl-clipboard
 4. ripgrep
 5. Fish
 6. ripgrep
