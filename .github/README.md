@@ -7,9 +7,9 @@
 
 </div>
 
-A config which just works in completing essential tasks added with extra 'bloat' to make life a bit easier with focus on work with Colemak keyboard layout. 
+A config which just works in completing essential tasks added with extra 'bloat' to make life a bit easier with focus on work with Colemak-DH keyboard layout. 
 
-**Note that this config is made with Colemak layout in mind. Search for any other config if you dont use it.** 
+**Note that this config is made with Colemak-DH layout in mind. Change a few lines in mappings file to quickly change to any other layout.** 
 
 ## Installation 
 1. Clone the repo into a folder with `git clone https://github.com/sidonthetroll/nvchad-colemak`
