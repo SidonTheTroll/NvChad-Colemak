@@ -61,3 +61,15 @@ lspconfig.clangd.setup {
     on_init = nvlsp.on_init,
     capabilities = nvlsp.capabilities,
 }
+
+-- Spellcheck Server 
+require('lspconfig').ltex.setup {
+  settings = {
+    ltex = {
+      language = "en-US",
+      enabled = { "markdown", "text", "latex" },
+    },
+  },
+  filetypes = { "markdown", "text", "latex" },
+}
+

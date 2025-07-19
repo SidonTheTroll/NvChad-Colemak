@@ -40,7 +40,8 @@ Important packages for configured LSPs to run are provided in `/requirements/` o
 5. Fish
 6. ripgrep
 7. devicons
-8. sed
+8. sed 
+9. jre17-openjdk
 
 > [!NOTE]
 > Added **fish** to be used in the Terminal Toggle keybind. The config is found in `/lua/options.lua`.
