@@ -7,9 +7,13 @@ return {
     { "andweeb/presence.nvim", lazy = false },
     { "mhinz/vim-startify", lazy=false},
     {
-        "sidonthetroll/friendly-snippets-math",
-        event = "BufReadPost",
+        "sidonthetroll/friendly-snippets-math", 
         ft = "markdown",
+        config = function()
+            require("luasnip.loaders.from_vscode").lazy_load({
+                paths = "~/.local/share/nvim/lazy/friendly-snippets-math/"
+            })
+        end
     },
     { 
         "nvim-pack/nvim-spectre",
