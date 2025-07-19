@@ -19,5 +19,4 @@ return {
         "nvim-pack/nvim-spectre",
         live_update = true,
     }
-
 }

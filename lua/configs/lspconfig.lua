@@ -2,12 +2,10 @@
 require("nvchad.configs.lspconfig").defaults()
 
 local lspconfig = require "lspconfig"
-
--- EXAMPLE
-local servers = { "html", "cssls" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
--- lsps with default config
+-- Example LSPs with default config
+local servers = { "html", "cssls" }
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     on_attach = nvlsp.on_attach,
@@ -16,58 +14,73 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- configuring single server, example: typescript
--- lspconfig.ts_ls.setup {
---   on_attach = nvlsp.on_attach,
---   on_init = nvlsp.on_init,
---   capabilities = nvlsp.capabilities,
--- }
--- ===========================================================
-
---Config for "python-lsp-server"
-local lspconfig = require "lspconfig"
-
--- Configure Python LSP (pylsp)
+-- Python LSP (pylsp) config
 lspconfig.pylsp.setup {
   on_attach = function(client, bufnr)
-    -- Enable nvim-cmp completion on LSP attach
     require'cmp'.setup.buffer {
       sources = {
-        { name = 'nvim_lsp' },  -- nvim_lsp source to get completions from LSP
+        { name = 'nvim_lsp' },
       }
     }
   end,
   settings = {
     pylsp = {
       plugins = {
-        jedi_completion = { enabled = true },  -- Enable Jedi completions
+        jedi_completion = { enabled = true },
         jedi_hover = { enabled = true },
         jedi_signature_help = { enabled = true },
         pyflakes = { enabled = true },
-        pyright = { enabled = true },  -- Ensure pyright is enabled for better completion
+        pyright = { enabled = true },
         pycodestyle = {
           enabled = true,
-          ignore = { "E501" }, -- ignore long code lines
+          ignore = { "E501" },
         },
       },
     },
   },
 }
 
--- Configure C LSP (clangd)
+-- C LSP (clangd) config
 lspconfig.clangd.setup {
-    cmd = {"clangd","--background-index","--clang-tidy"},
-    on_attach = nvlsp.on_attach,
-    on_init = nvlsp.on_init,
-    capabilities = nvlsp.capabilities,
+  cmd = { "clangd", "--background-index", "--clang-tidy" },
+  on_attach = nvlsp.on_attach,
+  on_init = nvlsp.on_init,
+  capabilities = nvlsp.capabilities,
 }
 
--- Spellcheck Server 
+-- LTEX Spellcheck LSP config
+local uv = vim.loop
+local dict_dir = vim.fn.expand("~/.config/nvim/dict")
+
+local function read_words(dir)
+  local words = {}
+  local handle = uv.fs_scandir(dir)
+  if not handle then return words end
+  while true do
+    local name = uv.fs_scandir_next(handle)
+    if not name then break end
+    local f = io.open(dir .. "/" .. name, "r")
+    if f then
+      for line in f:lines() do
+        if line ~= "" then table.insert(words, line) end
+      end
+      f:close()
+    end
+  end
+  return words
+end
+
+local custom_words = read_words(dict_dir)
+
 require('lspconfig').ltex.setup {
+  on_attach = nvlsp.on_attach,
+  on_init = nvlsp.on_init,
+  capabilities = nvlsp.capabilities,
   settings = {
     ltex = {
       language = "en-US",
       enabled = { "markdown", "text", "latex" },
+      dictionary = { ["en-US"] = custom_words },
     },
   },
   filetypes = { "markdown", "text", "latex" },
