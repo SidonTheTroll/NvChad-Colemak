@@ -5,7 +5,7 @@ require "nvchad.mappings"
 local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
-map("i", "jk", "<ESC>")
+map("i", "ne", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
@@ -16,20 +16,20 @@ map("i", "jk", "<ESC>")
 --   \/_____/   \/_____/   \/_____/     \/_/   \/_____/   \/_/  \/_/ 
 
 -- Navigation
-map("i", "<C-d>", "<Home>", { desc = "move beginning of line" })
+map("i", "<C-b>", "<Home>", { desc = "move beginning of line" })
 map("i", "<C-f>", "<End>", { desc = "move end of line" })
-map("i", "<C-m>", "<Left>", { desc = "move left" })
-map("i", "<C-i>", "<Right>", { desc = "move right" })
+map("i", "<C-h>", "<Left>", { desc = "move left" })
 map("i", "<C-n>", "<Down>", { desc = "move down" })
 map("i", "<C-e>", "<Up>", { desc = "move up" })
+map("i", "<C-i>", "<Right>", { desc = "move right" })
 
-map("n", "<C-w>m", "<C-w>h", { desc = "switch window left" })
-map("n", "<C-w>i", "<C-w>l", { desc = "switch window right" })
+map("n", "<C-w>h", "<C-w>h", { desc = "switch window left" })
 map("n", "<C-w>n", "<C-w>j", { desc = "switch window down" })
 map("n", "<C-w>e", "<C-w>k", { desc = "switch window up" })
+map("n", "<C-w>i", "<C-w>l", { desc = "switch window right" })
 
 -- Change functions 
-map('i', "<C-h>", "<CR>", { desc = "Alternate for return key" })
+map('i', "<C-m>", "<CR>", { desc = "Alternate for return key" })
 
 -- nvim-cmp
 local cmp = require("cmp")
@@ -39,7 +39,7 @@ cmp.setup({
         ['<C-n>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
         ['<C-k>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
         ['<CR>']  = cmp.mapping.confirm({ select = true }),
-        ['<C-h>']  = cmp.mapping.confirm({ select = true }),
+        ['<C-m>']  = cmp.mapping.confirm({ select = true }),
         ['<C-Space>'] = cmp.mapping.complete(),
     }
 })
