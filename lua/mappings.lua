@@ -1,13 +1,10 @@
 require "nvchad.mappings"
 
 -- add yours here
-
 local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
-map("i", "ne", "<ESC>")
-
--- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
+map("i", "nr", "<ESC>") 
 
 --  ______     __  __     ______     ______   ______     __    __    
 -- /\  ___\   /\ \/\ \   /\  ___\   /\__  _\ /\  __ \   /\ "-./  \   
@@ -18,6 +15,7 @@ map("i", "ne", "<ESC>")
 -- Navigation
 map("i", "<C-b>", "<Home>", { desc = "move beginning of line" })
 map("i", "<C-f>", "<End>", { desc = "move end of line" })
+
 map("i", "<C-h>", "<Left>", { desc = "move left" })
 map("i", "<C-n>", "<Down>", { desc = "move down" })
 map("i", "<C-e>", "<Up>", { desc = "move up" })
