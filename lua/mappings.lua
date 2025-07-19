@@ -28,6 +28,7 @@ map("n", "<C-w>i", "<C-w>l", { desc = "switch window right" })
 
 -- Change functions 
 map('i', "<C-m>", "<CR>", { desc = "Alternate for return key" })
+map('i', "<C-BS>", "<C-w>", { desc = "Alternate for ctrl+w" })
 
 -- nvim-cmp
 local cmp = require("cmp")
