@@ -38,8 +38,15 @@ cmp.setup({
         ['<C-n>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
         ['<C-k>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
         ['<CR>']  = cmp.mapping.confirm({ select = true }),
-        ['<C-m>']  = cmp.mapping.confirm({ select = true }),
+        ['<C-m>'] = cmp.mapping.confirm({ select = true }),
         ['<C-Space>'] = cmp.mapping.complete(),
+        ['<Tab>'] = cmp.mapping(function(fallback)
+            if cmp.visible() then
+                cmp.confirm({ select = true }) -- acts like <C-m>
+            else
+                fallback()
+            end
+        end, { "i", "s" }),
     }
 })
 
