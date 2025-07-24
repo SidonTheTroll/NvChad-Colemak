@@ -1,3 +1,11 @@
 mol
 cd
 washdown
+Giga
+Tera
+Peta
+Exa
+Rachet
+Plier
+deburring
+chamfering
