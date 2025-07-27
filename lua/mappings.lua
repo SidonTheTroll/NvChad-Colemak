@@ -21,6 +21,11 @@ map("i", "<C-n>", "<Down>", { desc = "move down" })
 map("i", "<C-e>", "<Up>", { desc = "move up" })
 map("i", "<C-i>", "<Right>", { desc = "move right" })
 
+map("i", "<A-h>", "<C-Left>", { desc = "move one word left" })
+map("i", "<A-i>", "<C-Right>", { desc = "move one word right" })
+map("i", "<F13>", "<Up>", { desc = "move up with Alt+e (config your terminal)" })
+map("i", "<A-n>", "<Down>", { desc = "move down" })
+
 map("n", "<C-w>h", "<C-w>h", { desc = "switch window left" })
 map("n", "<C-w>n", "<C-w>j", { desc = "switch window down" })
 map("n", "<C-w>e", "<C-w>k", { desc = "switch window up" })
@@ -30,6 +35,7 @@ map("n", "<C-w>i", "<C-w>l", { desc = "switch window right" })
 map('i', "<C-m>", "<CR>", { desc = "Alternate for return key" })
 map('i', "<C-z>", "<C-w>", { desc = "Alternate for ctrl+w" })
 map('i', "<C-BS>", "<C-w>", { desc = "Alternate for ctrl+w" })
+map("i", "<C-y>", "<C-o>dw", { desc = "Delete next word" })
 
 -- nvim-cmp
 local cmp = require("cmp")
