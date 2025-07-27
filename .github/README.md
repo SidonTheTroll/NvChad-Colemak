@@ -9,7 +9,11 @@
 
 A config which just works in completing essential tasks added with extra 'bloat' to make life a bit easier with focus on work with Colemak keyboard layout. 
 
-**Note that this config is made with Colemak layout in mind. Change a few lines in mappings file to quickly change to any other layout.** 
+> [!IMPORTANT]
+> - This config is made with Colemak layout in mind. Change a few lines in mappings file to quickly change to any other layout. 
+> - Essential navigation keybind can only be used by **adding line no. 87** to your terminal config file as applied [here](https://github.com/SidonTheTroll/dotfiles/blob/master/.config/kitty/kitty.conf).
+>   - TL;DR add `map alt+e send_key f13` to your terminal config or its equivalent for alt+e to be used as UP key. 
+
 
 ## Installation 
 1. Clone the repo into a folder with `git clone https://github.com/sidonthetroll/nvchad-colemak`
