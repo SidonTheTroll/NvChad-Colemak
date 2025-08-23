@@ -31,11 +31,12 @@ map("n", "<C-w>n", "<C-w>j", { desc = "switch window down" })
 map("n", "<C-w>e", "<C-w>k", { desc = "switch window up" })
 map("n", "<C-w>i", "<C-w>l", { desc = "switch window right" })
 
--- Change functions 
+-- Change/Add functions 
 map('i', "<C-m>", "<CR>", { desc = "Alternate for return key" })
 map('i', "<C-z>", "<C-w>", { desc = "Alternate for ctrl+w" })
 map('i', "<C-BS>", "<C-w>", { desc = "Alternate for ctrl+w" })
 map("i", "<C-y>", "<C-o>dw", { desc = "Delete next word" })
+map("i", "<C-Del>", "<C-o>dw", { desc = "Delete next word" })
 
 -- nvim-cmp
 local cmp = require("cmp")
