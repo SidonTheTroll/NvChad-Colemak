@@ -1,4 +1,3 @@
-mol
 cd
 washdown
 Giga
@@ -9,3 +8,6 @@ Rachet
 Plier
 deburring
 chamfering
+Affixation
+Optative
+optative
