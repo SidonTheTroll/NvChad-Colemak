@@ -11,3 +11,7 @@ chamfering
 Affixation
 Optative
 optative
+ing
+swg
+scriber
+
