@@ -48,13 +48,14 @@ cmp.setup({
         ['<CR>']  = cmp.mapping.confirm({ select = true }),
         ['<C-m>'] = cmp.mapping.confirm({ select = true }),
         ['<C-Space>'] = cmp.mapping.complete(),
-        ['<Tab>'] = cmp.mapping(function(fallback)
-            if cmp.visible() then
-                cmp.confirm({ select = true }) -- acts like <C-m>
-            else
-                fallback()
-            end
-        end, { "i", "s" }),
+        -- -- Below code conflicts with quick cursor switch
+        -- ['<Tab>'] = cmp.mapping(function(fallback)
+        --     if cmp.visible() then
+        --         cmp.confirm({ select = true }) -- acts like <C-m>
+        --     else
+        --         fallback()
+        --     end
+        -- end, { "i", "s" }),
     }
 })
 
