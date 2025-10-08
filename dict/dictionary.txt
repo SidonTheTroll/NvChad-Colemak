@@ -12,6 +12,9 @@ Affixation
 Optative
 optative
 ing
+SWG
 swg
+Scriber
 scriber
-
+oxalic 
+dil
