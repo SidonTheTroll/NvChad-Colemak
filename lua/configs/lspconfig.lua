@@ -14,39 +14,39 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- Python LSP (pylsp) config
-lspconfig.pylsp.setup {
-  on_attach = function(client, bufnr)
-    require'cmp'.setup.buffer {
-      sources = {
-        { name = 'nvim_lsp' },
-      }
-    }
-  end,
-  settings = {
-    pylsp = {
-      plugins = {
-        jedi_completion = { enabled = true },
-        jedi_hover = { enabled = true },
-        jedi_signature_help = { enabled = true },
-        pyflakes = { enabled = true },
-        pyright = { enabled = true },
-        pycodestyle = {
-          enabled = true,
-          ignore = { "E501" },
-        },
-      },
-    },
-  },
-}
+-- -- Python LSP (pylsp) config
+-- lspconfig.pylsp.setup {
+--   on_attach = function(client, bufnr)
+--     require'cmp'.setup.buffer {
+--       sources = {
+--         { name = 'nvim_lsp' },
+--       }
+--     }
+--   end,
+--   settings = {
+--     pylsp = {
+--       plugins = {
+--         jedi_completion = { enabled = true },
+--         jedi_hover = { enabled = true },
+--         jedi_signature_help = { enabled = true },
+--         pyflakes = { enabled = true },
+--         pyright = { enabled = true },
+--         pycodestyle = {
+--           enabled = true,
+--           ignore = { "E501" },
+--         },
+--       },
+--     },
+--   },
+-- }
 
--- C LSP (clangd) config
-lspconfig.clangd.setup {
-  cmd = { "clangd", "--background-index", "--clang-tidy" },
-  on_attach = nvlsp.on_attach,
-  on_init = nvlsp.on_init,
-  capabilities = nvlsp.capabilities,
-}
+-- -- C LSP (clangd) config
+-- lspconfig.clangd.setup {
+--   cmd = { "clangd", "--background-index", "--clang-tidy" },
+--   on_attach = nvlsp.on_attach,
+--   on_init = nvlsp.on_init,
+--   capabilities = nvlsp.capabilities,
+-- }
 
 -- LTEX Spellcheck LSP config
 local uv = vim.loop
