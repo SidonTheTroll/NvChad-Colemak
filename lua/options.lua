@@ -1,5 +1,10 @@
 require "nvchad.options"
 
+-- add yours here!
+
+-- local o = vim.o
+-- o.cursorlineopt ='both' -- to enable cursorline!
+
 -- Copy yanked text to System Clipboard
 vim.opt.clipboard = "unnamedplus"
 
@@ -7,15 +12,15 @@ vim.opt.clipboard = "unnamedplus"
 local config_file_path = vim.fn.expand('$HOME/.config/nvim/ascii.txt')
 
 vim.g.startify_custom_header = vim.fn.filereadable(config_file_path) == 1
-  and vim.fn.readfile(config_file_path)
-  or { "Welcome to Neovim!" }
+and vim.fn.readfile(config_file_path)
+or { "Welcome to Neovim!" }
 
--- Activate Relative Line Number in every boot 
+-- Activate Relative Line Number in every boot
 vim.o.relativenumber = true
 
 -- Activate Cursor Line and Column
 vim.o.cursorlineopt ='both'
 vim.o.cursorcolumn = true
 
--- Use Fish in place of default shell 
+-- Use Fish in place of default shell
 vim.opt.shell="/usr/bin/fish"
