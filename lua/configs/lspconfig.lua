@@ -32,7 +32,7 @@ for _, server in ipairs(servers) do
         on_init = nvlsp.on_init,
         capabilities = nvlsp.capabilities,
 
-        filetypes = { "markdown", "text" },
+        filetypes = { "markdown", "text", "html" },
 
         settings = {
             ["harper-ls"] = {
