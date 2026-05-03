@@ -21,6 +21,11 @@ map("i", "<C-n>", "<Down>", { desc = "move down" })
 map("i", "<C-e>", "<Up>", { desc = "move up" })
 map("i", "<C-i>", "<Right>", { desc = "move right" })
 
+map("n", "<C-A-h>", "<Left>", {desc = "move left"})
+map("n", "<C-A-n>", "<Down>", {desc = "move down"})
+map("n", "<C-A-e>", "<Up>", {desc = "move up"})
+map("n", "<C-A-i>", "<Right>", {desc = "move right"})
+
 map("i", "<A-h>", "<C-Left>", { desc = "move one word left" })
 map("i", "<A-i>", "<C-Right>", { desc = "move one word right" })
 map("i", "<F13>", "<Up>", { desc = "move up with Alt+e (config your terminal)" })
